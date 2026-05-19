@@ -6,7 +6,7 @@
       "description": "L'incrocio pedonale più trafficato del mondo, circondato da schermi luminosi.",
       "category": "Quartiere",
       "location": "Shibuya",
-      "imageUrl": "https://images.unsplash.com/photo-1542051812-ba32e00858e5"
+      "imageUrl": "https://www.watabi.it/blog/wp-content/uploads/2020/05/shibuya-cosa-vedere-copertina-1140x445.jpg"
     },
     {
       "id": 2,
@@ -14,7 +14,7 @@
       "description": "Il tempio buddista più antico e famoso di Tokyo.",
       "category": "Tempio",
       "location": "Asakusa",
-      "imageUrl": "https://images.unsplash.com/photo-1532236204992-f5e85c015dce"
+      "imageUrl": "https://mirandalovestravelling.com/media/2016/08/Asakusa-11.jpg"
     },
     {
       "id": 3,
@@ -22,7 +22,7 @@
       "description": "Famoso per i suoi musei e per la spettacolare fioritura dei ciliegi.",
       "category": "Parco",
       "location": "Ueno",
-      "imageUrl": "https://images.unsplash.com/photo-1583307812169-2313d5272a08"
+      "imageUrl": "https://images.placesonline.com/photos/96170_tokyo_parco_di_ueno.jpg?quality=80&w=637"
     }
   ],
   "foods" : [
@@ -38,7 +38,7 @@
       "name": "Takoyaki",
       "description": "Polpettine fritte ripiene di polpo, pastella e cipollotto.",
       "category": "Street Food",
-      "imageUrl": "https://images.unsplash.com/photo-1596660634621-081e7d23d8c1"
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5d3ee66abacfa00001df6854/1591671882239-7ST3M9KL7CHWQAQ29UPS/private-food-tour-tokyo-takoyaki.gif?format=2500w"
     }
   ]
 }
