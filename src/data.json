@@ -1,0 +1,44 @@
+{
+  "places" : [
+    {
+      "id": 1,
+      "name": "Incrocio di Shibuya",
+      "description": "L'incrocio pedonale più trafficato del mondo, circondato da schermi luminosi.",
+      "category": "Quartiere",
+      "location": "Shibuya",
+      "imageUrl": "https://images.unsplash.com/photo-1542051812-ba32e00858e5"
+    },
+    {
+      "id": 2,
+      "name": "Tempio Senso-ji",
+      "description": "Il tempio buddista più antico e famoso di Tokyo.",
+      "category": "Tempio",
+      "location": "Asakusa",
+      "imageUrl": "https://images.unsplash.com/photo-1532236204992-f5e85c015dce"
+    },
+    {
+      "id": 3,
+      "name": "Parco di Ueno",
+      "description": "Famoso per i suoi musei e per la spettacolare fioritura dei ciliegi.",
+      "category": "Parco",
+      "location": "Ueno",
+      "imageUrl": "https://images.unsplash.com/photo-1583307812169-2313d5272a08"
+    }
+  ],
+  "foods" : [
+    {
+      "id": 1,
+      "name": "Ramen",
+      "description": "Zuppa di noodle in brodo di carne o pesce, con vari condimenti.",
+      "category": "Piatto Principale",
+      "imageUrl": "https://images.unsplash.com/photo-1557872943-16a5ac26437e"
+    },
+    {
+      "id": 2,
+      "name": "Takoyaki",
+      "description": "Polpettine fritte ripiene di polpo, pastella e cipollotto.",
+      "category": "Street Food",
+      "imageUrl": "https://images.unsplash.com/photo-1596660634621-081e7d23d8c1"
+    }
+  ]
+}
