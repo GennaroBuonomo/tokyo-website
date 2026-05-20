@@ -28,6 +28,26 @@ export default function FoodDetails() {
       
       <div className="detail-content">
         <p className="detail-description">{food.description}</p>
+
+        {/* SEZIONE STORIA */}
+        {food.history && (
+          <div className="detail-history">
+            <h3>Un po' di storia</h3>
+            <p>{food.history}</p>
+          </div>
+        )}
+
+        {/* BOTTONE*/}
+        {food.restaurantLink && (
+          <a 
+            href={food.restaurantLink} 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="ticket-btn"
+          >
+            Dove mangiarlo a Tokyo
+          </a>
+        )}
       </div>
     </div>
   );

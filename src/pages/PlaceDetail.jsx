@@ -33,7 +33,26 @@ export default function PlaceDetail() {
       
       <div className="detail-content">
         <p className="detail-description">{place.description}</p>
-        {/* Qui potresti aggiungere altre informazioni come orari di apertura, mappa, ecc. */}
+        
+        {/*  STORIA (Mostrata solo se esiste nel JSON) */}
+        {place.history && (
+          <div className="detail-history">
+            <h3>Un po' di storia</h3>
+            <p>{place.history}</p>
+          </div>
+        )}
+
+        {/*  BOTTONE BIGLIETTI (Mostrato solo se esiste il link) */}
+        {place.ticketLink && (
+          <a 
+            href={place.ticketLink} 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="ticket-btn"
+          >
+            Info e Biglietti
+          </a>
+        )}
       </div>
     </div>
   );

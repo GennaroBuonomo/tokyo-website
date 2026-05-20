@@ -337,3 +337,45 @@ h2::before {
     transform: translateY(0); 
   }
 }
+
+.detail-history {
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-top: 1px solid #eee; /* Una riga di separazione sottile */
+}
+
+.detail-history h3 {
+  font-family: var(--font-header);
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: var(--text-main);
+}
+
+.detail-history p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: var(--text-muted);
+}
+
+.ticket-btn {
+  display: inline-block;
+  margin-top: 2.5rem;
+  background-color: var(--tokyo-red);
+  color: white;
+  padding: 1rem 2.5rem;
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: 1.1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-radius: 4px;
+  box-shadow: 0 4px 15px rgba(169, 17, 27, 0.3); /* Ombra rossa */
+  transition: all 0.3s ease;
+}
+
+.ticket-btn:hover {
+  background-color: #8a0e16; /* Rosso più scuro al passaggio del mouse */
+  transform: translateY(-3px); /* Si solleva leggermente */
+  box-shadow: 0 6px 20px rgba(169, 17, 27, 0.4);
+}
