@@ -9,7 +9,7 @@ export default function Home() {
         <h2>I Luoghi Più Popolari</h2>
         <div className="grid">
           {/* Usiamo slice(0, 3) per mostrare solo i primi 3 luoghi */}
-          {data.places.slice(0, 3).map((place) => (
+          {data.places.slice(0, 6).map((place) => (
             <Card 
               key={place.id}
               id={place.id}
@@ -29,7 +29,7 @@ export default function Home() {
         <h2>Cibo da Non Perdere</h2>
         <div className="grid">
           {/* Usiamo slice(0, 3) per mostrare solo i primi 3 piatti */}
-          {data.foods.slice(0, 3).map((food) => (
+          {data.foods.slice(0, 6).map((food) => (
             <Card 
               key={food.id}
               id={food.id}

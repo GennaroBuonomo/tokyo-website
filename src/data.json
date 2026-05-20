@@ -1,5 +1,5 @@
 {
-  "places" : [
+  "places": [
     {
       "id": 1,
       "name": "Incrocio di Shibuya",
@@ -17,7 +17,7 @@
       "category": "Tempio",
       "location": "Asakusa",
       "imageUrl": "https://mirandalovestravelling.com/media/2016/08/Asakusa-11.jpg",
-      "history": "Fondato nel 628 d.C., la leggenda narra che due pescatori trovarono una statua della dea della misericordia, Kannon, nel fiume Sumida. Il tempio fu costruito per onorarla ed è sopravvissuto a terremoti e bombardamenti.",
+      "history": "Fondato nel 628 d.C., la leggenda narra che due pescatori trovarono una statua della dea della misericordia, Kannon, nel fiume Sumida. Il tempio wurde costruito per onorarla ed è sopravvissuto a terremoti e bombardamenti.",
       "ticketLink": "https://www.japan-guide.com/e/e3001.html"
     },
     {
@@ -29,16 +29,46 @@
       "imageUrl": "https://images.placesonline.com/photos/96170_tokyo_parco_di_ueno.jpg?quality=80&w=637",
       "history": "Nato sui terreni dell'ex tempio Kan'ei-ji (distrutto durante la guerra civile Boshin nel 1868), Ueno è stato inaugurato nel 1873, diventando uno dei primissimi parchi pubblici di tutto il Giappone.",
       "ticketLink": "https://www.tokyo-zoo.net/en/"
+    },
+    {
+      "id": 4,
+      "name": "Akihabara",
+      "description": "Il quartiere dell'elettronica e fulcro della cultura otaku, ricco di negozi di anime, manga e sale giochi.",
+      "category": "Quartiere",
+      "location": "Akihabara",
+      "imageUrl": "https://www.marcotogni.it/top-v2/10/cosa-vedere-akihabara.jpg",
+      "history": "Sviluppatosi dopo la Seconda Guerra Mondiale come mercato nero per componenti radio, Akihabara si è trasformata negli anni '80 con l'avvento dei computer, diventando poi la mecca globale per gli appassionati di cultura pop giapponese e videogiochi.",
+      "ticketLink": "https://www.gotokyo.org/it/destinations/central-tokyo/akihabara/index.html"
+    },
+    {
+      "id": 5,
+      "name": "Tokyo Skytree",
+      "description": "La torre di trasmissione più alta del Giappone, offre una vista panoramica mozzafiato a 360 gradi sull'intera metropoli.",
+      "category": "Attrazione",
+      "location": "Sumida",
+      "imageUrl": "https://images.unsplash.com/photo-1542931287-023b922fa89b",
+      "history": "Completata nel 2012 con un'altezza record di 634 metri. L'altezza non è casuale: i numeri 6 (mu), 3 (sa) e 4 (shi) formano la parola 'Musashi', che è l'antico nome della regione in cui oggi sorge Tokyo.",
+      "ticketLink": "https://www.tokyo-skytree.jp/"
+    },
+    {
+      "id": 6,
+      "name": "Santuario Meiji",
+      "description": "Un pacifico santuario shintoista immerso in una fitta foresta, un'oasi di pace a pochi passi dal caos di Harajuku.",
+      "category": "Tempio",
+      "location": "Harajuku",
+      "imageUrl": "https://www.vadoingiappone.it/wp-content/uploads/2017/10/giappone-tokyo-meiji-jingu-shrine-vadoingiappone.jpg",
+      "history": "Costruito nel 1920 e dedicato agli spiriti dell'Imperatore Meiji e di sua moglie. La foresta di 70 ettari che lo circonda non è naturale, ma composta da oltre 100.000 alberi donati da cittadini provenienti da tutto il Giappone durante la costruzione.",
+      "ticketLink": "https://www.meijijingu.or.jp/en/"
     }
   ],
-  "foods" : [
+  "foods": [
     {
       "id": 1,
       "name": "Ramen",
       "description": "Zuppa di noodle in brodo di carne o pesce, con vari condimenti.",
       "category": "Piatto Principale",
       "imageUrl": "https://images.unsplash.com/photo-1557872943-16a5ac26437e",
-      "history": "Sebbene oggi sia il comfort food giapponese per eccellenza, il ramen ha origini cinesi. È stato introdotto in Giappone tra la fine dell'800 e l'inizio del '900 dai commercianti, per poi evolversi in centinaia di varianti regionali uniche, dal brodo denso e cremoso del Tonkotsu a quello leggero e salato dello Shio.",
+      "history": "Sebbene oggi sia il comfort food giapponese per excellenza, il ramen ha origini cinesi. È stato introdotto in Giappone tra la fine dell'800 e l'inizio del '900 dai commercianti, per poi evolversi in centinaia di varianti regionali uniche, dal brodo denso e cremoso del Tonkotsu a quello leggero e salato dello Shio.",
       "restaurantLink": "https://en.ichiran.com/shop/tokyo/shibuya/"
     },
     {
@@ -49,6 +79,42 @@
       "imageUrl": "https://images.squarespace-cdn.com/content/v1/5d3ee66abacfa00001df6854/1591671882239-7ST3M9KL7CHWQAQ29UPS/private-food-tour-tokyo-takoyaki.gif?format=2500w",
       "history": "Creati nel 1935 da Tomekichi Endo, un venditore di strada di Osaka. L'idea nacque adattando una ricetta precedente che usava carne di manzo, sostituendola con il polpo che abbondava nel mare interno di Seto. Oggi è lo street food per eccellenza dei festival giapponesi.",
       "restaurantLink": "https://stores.gindaco.com/detail/1010868/"
+    },
+    {
+      "id": 3,
+      "name": "Sushi",
+      "description": "Riso acetato servito con pesce crudo freschissimo, frutti di mare o verdure. Il simbolo culinario del Giappone.",
+      "category": "Piatto Principale",
+      "imageUrl": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c",
+      "history": "Inizialmente il sushi nacque in Asia come metodo per conservare il pesce fermentandolo nel riso (che poi veniva scartato). Il sushi che mangiamo oggi, l'Edomae sushi, è nato proprio a Tokyo nel XIX secolo come fast food mangiato in piedi presso le bancarelle.",
+      "restaurantLink": "https://www.kiyomura.co.jp/store/detail/1"
+    },
+    {
+      "id": 4,
+      "name": "Okonomiyaki",
+      "description": "Un pancake salato giapponese cotto sulla piastra (teppan), ripieno di cavolo e arricchito con carne, pesce o formaggio.",
+      "category": "Street Food",
+      "imageUrl": "https://static.wixstatic.com/media/0a76a3_760a64922d3644ca9eef2a7ef29b06d4~mv2.jpeg/v1/fill/w_816,h_544,al_c,lg_1,q_85,enc_avif,quality_auto/0a76a3_760a64922d3644ca9eef2a7ef29b06d4~mv2.jpeg",
+      "history": "Il nome significa letteralmente 'ciò che ti piace, grigliato'. È diventato il piatto della sopravvivenza durante e dopo la Seconda Guerra Mondiale, quando il riso scarseggiava e i cittadini dovevano ingegnarsi con la farina degli aiuti americani.",
+      "restaurantLink": "https://www.teppanbaby.com/"
+    },
+    {
+      "id": 5,
+      "name": "Matcha Mochi",
+      "description": "Dolce tradicional composto da pasta di riso glutinoso ripieno di pasta di fagioli rossi dolce e spolverato di tè verde matcha.",
+      "category": "Dolce",
+      "imageUrl": "https://images.unsplash.com/photo-1551024601-bec78aea704b",
+      "history": "Il mochi ha una storia millenaria ed era considerato cibo per gli dei. L'integrazione del matcha, il tè usato dai monaci zen per favorire la meditazione, ne ha fatto un classico immancabile della tradizionale cerimonia del tè giapponese.",
+      "restaurantLink": "https://wanderlog.com/place/details/7030299/asakusa-strawberry-daifuku"
+    },
+    {
+      "id": 6,
+      "name": "Tempura",
+      "description": "Gamberi, pesce o verdure ricoperti da una pastella leggerissima e fritti in olio di sesamo fino a diventare dorati.",
+      "category": "Piatto Principale",
+      "imageUrl": "https://omakaseje.com/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NDE5NzcsInB1ciI6ImJsb2JfaWQifX0=--ce0b371374ab2bfc8e6367daab26b8777dc3a7c0/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJqcGciLCJjb252ZXJ0Ijoid2VicCIsInJlc2l6ZV90b19maWxsIjpbMTA0Miw2MjBdfSwicHVyIjoidmFyaWF0aW9uIn19--268dd143f3c6f35f9ca1e6bf930a03984b5c0510/29597384_m%20(1).webp",
+      "history": "La tempura è nata nel XVI secolo grazie all'influenza dei missionari portoghesi, che nei giorni di 'Quattro Tempora' (i giorni di digiuno) mangiavano verdure fritte. I giapponesi hanno poi perfezionato la tecnica rendendo la pastella eterea e croccante.",
+      "restaurantLink": "https://www.tenya.co.jp/"
     }
   ]
 }
