@@ -4,6 +4,7 @@ import Places from './pages/Places';
 import Food from './pages/Food';
 import PlaceDetail from './pages/PlaceDetail'; 
 import FoodDetail from './pages/FoodDetail';
+import Footer from './components/Footer';
 import './App.css';
 
 function App() {
@@ -33,6 +34,8 @@ function App() {
             <Route path="/food/:id" element={<FoodDetail />} />
           </Routes>
         </main>
+
+        <Footer />
       </div>
     </BrowserRouter>
   );
