@@ -3,6 +3,7 @@ import Home from './pages/Home';
 import Places from './pages/Places';
 import Food from './pages/Food';
 import PlaceDetail from './pages/PlaceDetail'; 
+import FoodDetail from './pages/FoodDetail';
 import './App.css';
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
             <Route path="/places" element={<Places />} />
             <Route path="/food" element={<Food />} />
             <Route path="/place/:id" element={<PlaceDetail />} />
+            <Route path="/food/:id" element={<FoodDetail />} />
           </Routes>
         </main>
       </div>
