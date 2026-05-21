@@ -1,24 +1,23 @@
-/* App.css - MODERN TOKYO AESTHETIC */
-
-/* 1. PALETTE COLORI REFINED & FONTS URBAN GEOMETRIC */
+/* 1. LA PALETTE DI GENNARO: Eleganza giapponese per un portfolio di livello */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Playfair+Display:wght@700&display=swap');
 
 :root {
-  --base-bg: #ffffff; /* Sfondo puro, minimal */
-  --urban-gray: #f5f5f7; /* Neutro strutturale, come il cemento pulito */
-  --tokyo-red: #a9111b; /* Rosso tradizionale "Midnight" */
-  --neon-gold: #dcb953; /* Oro tech, come i cartelloni */
+  --base-bg: #ffffff; /* Sfondo puro, perché il codice pulito si vede dai dettagli */
+  --urban-gray: #f5f5f7; /* Neutro e strutturale, perfetto per far risaltare il contenuto */
+  --tokyo-red: #a9111b; /* Il nostro rosso fiammante, la vera firma del progetto */
+  --neon-gold: #dcb953; /* Un tocco dorato per non farci mancare nulla */
   --text-main: #1a1a1a;
   --text-muted: #6e6e73;
   --shadow-elegant: 0 8px 30px rgba(0, 0, 0, 0.05);
   
-  /* Font Families */
+  /* Le nostre Font Families preferite */
   --font-body: 'Poppins', sans-serif;
-  --font-header: 'Playfair Display', serif; /* Un tocco editoriale per i titoli */
+  --font-header: 'Playfair Display', serif; /* Stile da rivista per i titoli importanti */
 }
 
 body {
   margin: 0;
+  /* L'effetto magico in trasparenza che fa impazzire chi visita il sito */
   background-image: 
     linear-gradient(rgba(255, 255, 255, 0.88), rgba(255, 255, 255, 0.95)),
     url('https://images.unsplash.com/photo-1480796927426-f609979314bd');
@@ -31,22 +30,22 @@ body {
 }
 
 .app-container {
-  max-width: 1400px; /* Più largo per un respiro più metropolitano */
+  max-width: 1400px; /* Layout ampio per far respirare le nostre card */
   margin: 0 auto;
-  padding: 2rem 4rem; /* Più spazio ai lati */
+  padding: 32px 64px; /* Spazio abbondante ai lati */
 }
 
-/* 2. HEADER STRUTTURATO & MINIMAL */
+/* 2. L'INTESTAZIONE: Il benvenuto nel mio mondo */
 header {
-  text-align: left; /* Allineamento a sinistra, più moderno */
-  margin-bottom: 6rem;
-  border-left: 8px solid var(--tokyo-red); /* Un accento forte */
-  padding-left: 2rem;
+  text-align: left; /* Moderno e dritto al punto */
+  margin-bottom: 96px;
+  border-left: 8px solid var(--tokyo-red); /* Un accento deciso che cattura l'occhio */
+  padding-left: 32px;
 }
 
 h1 {
   font-family: var(--font-header);
-  font-size: 4.5rem;
+  font-size: 72px; /* Enorme e d'impatto */
   font-weight: 700;
   color: var(--text-main);
   margin: 0;
@@ -54,28 +53,28 @@ h1 {
 }
 
 header p {
-  font-size: 1.25rem;
+  font-size: 20px;
   color: var(--text-muted);
-  margin-top: 0.5rem;
+  margin-top: 8px;
   font-weight: 300;
 }
 
-/* 3. SEZIONI CON LAYOUT ARCHITETTURALE */
+/* 3. LE SEZIONI: Architettura solida, degna di un Junior Dev in rampa di lancio */
 section {
-  margin-bottom: 6rem;
+  margin-bottom: 96px;
 }
 
 h2 {
   font-family: var(--font-header);
-  font-size: 2.5rem;
-  margin-bottom: 3rem;
+  font-size: 40px;
+  margin-bottom: 48px;
   color: var(--text-main);
   display: flex;
   align-items: center;
-  gap: 1rem;
+  gap: 16px;
 }
 
-/* Un piccolo dettaglio geometrico prima del titolo */
+/* Il nostro amato dettaglio geometrico prima di ogni titolo */
 h2::before {
   content: '';
   display: block;
@@ -84,20 +83,20 @@ h2::before {
   background-color: var(--neon-gold);
 }
 
-/* 4. LA GRIGLIA: PIÙ SOTTILE E PULITA */
+/* 4. LA GRIGLIA: Flessibile ma rigorosa */
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  gap: 2.5rem; /* Più spazio tra i moduli */
+  gap: 40px; /* Ottimo spazio tra i moduli */
 }
 
-/* 5. CARD COME MODULI INFO STRUTTURATI */
+/* 5. LE CARD: Il cuore pulsante dell'app */
 .card {
   background: var(--base-bg);
-  border-radius: 4px; /* Angoli quasi retti, più architettonici */
+  border-radius: 4px; /* Angoli squadrati, molto eleganti */
   overflow: hidden;
-  border: 1px solid #eee; /* Un bordo sottilissimo */
-  transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1); /* Transizione smooth */
+  border: 1px solid #eee;
+  transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1); /* La transizione fluida di cui andiamo fieri */
 }
 
 .card:hover {
@@ -106,47 +105,47 @@ h2::before {
   box-shadow: var(--shadow-elegant);
 }
 
-/* Formattazione Immagine Dinamica */
+/* Le immagini delle nostre card con effetto hover */
 .card img {
   width: 100%;
-  height: 240px; /* Un po' più alte */
+  height: 240px; 
   object-fit: cover;
-  filter: grayscale(20%); /* Un leggero filtro per uniformare */
+  filter: grayscale(20%); /* Un pizzico di desaturazione in partenza */
   transition: filter 0.4s ease;
 }
 
 .card:hover img {
-  filter: grayscale(0%); /* Torna a colori pieni all'hover */
+  filter: grayscale(0%); /* Boom! Colori esplosivi al passaggio del mouse */
 }
 
 .card-body {
-  padding: 2rem; /* Più respiro all'interno */
+  padding: 32px; 
 }
 
-/* Badge raffinato */
+/* L'etichetta chic sulle card */
 .badge {
   background: var(--urban-gray);
   color: var(--tokyo-red);
-  padding: 0.4rem 1rem;
-  border-radius: 2px; /* Geometrico */
-  font-size: 0.75rem;
+  padding: 6px 16px;
+  border-radius: 2px;
+  font-size: 12px;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 1px;
   display: inline-block;
-  margin-bottom: 1rem;
+  margin-bottom: 16px;
 }
 
 .card-body h3 {
   font-family: var(--font-header);
-  margin: 0 0 1rem 0;
-  font-size: 1.6rem;
+  margin: 0 0 16px 0;
+  font-size: 26px;
   font-weight: 700;
   color: var(--text-main);
 }
 
 .card-body p {
-  font-size: 0.95rem;
+  font-size: 15px;
   line-height: 1.7;
   color: var(--text-muted);
   margin: 0;
@@ -158,29 +157,30 @@ h2::before {
   color: var(--text-main);
 }
 
-/* Responsive Padding */
+/* Gestione perfetta anche su schermi piccoli (perché siamo full-stack ma attenti al frontend!) */
 @media (max-width: 768px) {
   .app-container {
-    padding: 2rem;
+    padding: 32px;
   }
   h1 {
-    font-size: 3rem;
+    font-size: 48px;
   }
 }
 
+/* 6. RICERCA E FILTRI: La logica che abbiamo costruito insieme */
 .controls-section {
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
-  margin-bottom: 4rem;
+  gap: 24px;
+  margin-bottom: 64px;
 }
 
 .search-bar {
   width: 100%;
   max-width: 500px;
-  padding: 1rem 1.5rem;
+  padding: 16px 24px;
   font-family: var(--font-body);
-  font-size: 1rem;
+  font-size: 16px;
   border: 1px solid #ddd;
   border-radius: 4px;
   outline: none;
@@ -193,7 +193,7 @@ h2::before {
 
 .filter-buttons {
   display: flex;
-  gap: 1rem;
+  gap: 16px;
   flex-wrap: wrap;
 }
 
@@ -201,7 +201,7 @@ h2::before {
   background: var(--urban-gray);
   border: none;
   color: var(--text-muted);
-  padding: 0.6rem 1.5rem;
+  padding: 10px 24px;
   border-radius: 4px;
   font-family: var(--font-body);
   font-weight: 600;
@@ -225,13 +225,13 @@ h2::before {
   font-style: italic;
 }
 
-/* --- NAVBAR & NAVIGAZIONE --- */
+/* --- NAVBAR & NAVIGAZIONE: Le nostre amate React Routes --- */
 .navbar {
   display: flex;
-  gap: 2.5rem;
-  margin-top: 2rem;
+  gap: 40px;
+  margin-top: 32px;
   border-bottom: 1px solid #eee;
-  padding-bottom: 1rem;
+  padding-bottom: 16px;
 }
 
 .nav-link {
@@ -239,7 +239,7 @@ h2::before {
   text-decoration: none;
   font-family: var(--font-body);
   font-weight: 600;
-  font-size: 1.1rem;
+  font-size: 18px;
   letter-spacing: 0.5px;
   text-transform: uppercase;
   transition: all 0.3s ease;
@@ -250,13 +250,13 @@ h2::before {
   color: var(--tokyo-red);
 }
 
-/* Sottolineatura animata all'hover */
+/* Quella fantastica linea rossa che scorre sotto i link */
 .nav-link::after {
   content: '';
   position: absolute;
   width: 0;
   height: 2px;
-  bottom: -1rem; /* Allineato col border-bottom della navbar */
+  bottom: -16px; 
   left: 0;
   background-color: var(--tokyo-red);
   transition: width 0.3s ease;
@@ -266,72 +266,70 @@ h2::before {
   width: 100%;
 }
 
-/* --- PAGINA DI DETTAGLIO --- */
+/* --- PAGINA DI DETTAGLIO: L'esperienza immersiva --- */
 .detail-container {
-  max-width: 900px; /* Un po' più stretto per facilitare la lettura */
+  max-width: 900px; /* Più stretto per non stancare gli occhi dei lettori */
   margin: 0 auto;
-  animation: fadeIn 0.6s cubic-bezier(0.25, 1, 0.5, 1); /* Animazione di entrata */
+  animation: fadeIn 0.6s cubic-bezier(0.25, 1, 0.5, 1); 
 }
 
-/* Link per tornare indietro */
+/* Il nostro pulsante per tornare indietro */
 .back-link {
   display: inline-block;
-  margin-bottom: 2.5rem;
+  margin-bottom: 40px;
   color: var(--tokyo-red);
   text-decoration: none;
   font-weight: 600;
-  font-size: 0.9rem;
+  font-size: 14px;
   text-transform: uppercase;
   letter-spacing: 1.5px;
   transition: transform 0.3s ease;
 }
 
 .back-link:hover {
-  transform: translateX(-8px); /* Effetto scorrimento a sinistra */
+  transform: translateX(-8px); 
 }
 
-/* Intestazione della pagina */
 .detail-header {
-  margin-bottom: 2.5rem;
+  margin-bottom: 40px;
 }
 
 .detail-header h1 {
-  font-size: 4rem;
-  margin-bottom: 1rem;
+  font-size: 64px;
+  margin-bottom: 16px;
   line-height: 1.1;
 }
 
 .location-info {
   color: var(--text-muted);
-  font-size: 1.1rem;
-  margin-top: 1rem;
+  font-size: 18px;
+  margin-top: 16px;
 }
 
-/* Immagine principale */
+/* L'immagine in grande stile */
 .detail-image {
   width: 100%;
-  height: 500px; /* Bella grande e immersiva */
+  height: 500px; 
   object-fit: cover;
   border-radius: 4px;
-  margin-bottom: 3rem;
+  margin-bottom: 48px;
   box-shadow: var(--shadow-elegant);
 }
 
-/* Testo descrittivo */
 .detail-content {
-  border-left: 4px solid var(--neon-gold); /* Richiamo al dettaglio geometrico */
-  padding-left: 2rem;
+  border-left: 4px solid var(--neon-gold); 
+  padding-left: 32px;
 }
 
 .detail-description {
-  font-size: 1.25rem;
+  font-size: 20px;
   line-height: 1.8;
   color: var(--text-main);
   font-weight: 300;
   margin: 0;
 }
 
-/* Animazione di caricamento (Fade In) */
+/* L'animazione di comparsa che dà un tocco premium */
 @keyframes fadeIn {
   from { 
     opacity: 0; 
@@ -343,52 +341,55 @@ h2::before {
   }
 }
 
+/* La sezione con le curiosità storiche */
 .detail-history {
-  margin-top: 2rem;
-  padding-top: 2rem;
-  border-top: 1px solid #eee; /* Una riga di separazione sottile */
+  margin-top: 32px;
+  padding-top: 32px;
+  border-top: 1px solid #eee; 
 }
 
 .detail-history h3 {
   font-family: var(--font-header);
-  font-size: 1.8rem;
-  margin-bottom: 1rem;
+  font-size: 29px;
+  margin-bottom: 16px;
   color: var(--text-main);
 }
 
 .detail-history p {
-  font-size: 1.1rem;
+  font-size: 18px;
   line-height: 1.8;
   color: var(--text-muted);
 }
 
+/* Il bottone fiammante per i biglietti o la mappa */
 .ticket-btn {
   display: inline-block;
-  margin-top: 2.5rem;
+  margin-top: 40px;
   background-color: var(--tokyo-red);
   color: white;
-  padding: 1rem 2.5rem;
+  padding: 16px 40px;
   font-family: var(--font-body);
   font-weight: 600;
-  font-size: 1.1rem;
+  font-size: 18px;
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 1px;
   border-radius: 4px;
-  box-shadow: 0 4px 15px rgba(169, 17, 27, 0.3); /* Ombra rossa */
+  box-shadow: 0 4px 15px rgba(169, 17, 27, 0.3); 
   transition: all 0.3s ease;
 }
 
 .ticket-btn:hover {
-  background-color: #8a0e16; /* Rosso più scuro al passaggio del mouse */
-  transform: translateY(-3px); /* Si solleva leggermente */
+  background-color: #8a0e16; 
+  transform: translateY(-3px); 
   box-shadow: 0 6px 20px rgba(169, 17, 27, 0.4);
 }
 
+/* --- FOOTER: La firma del vero creatore --- */
 .footer-container {
-  margin-top: 6rem;
-  padding-top: 3rem;
-  border-top: 1px solid #eaeaea; /* Linea di separazione molto delicata */
+  margin-top: 96px;
+  padding-top: 48px;
+  border-top: 1px solid #eaeaea; 
   color: var(--text-muted);
 }
 
@@ -397,19 +398,19 @@ h2::before {
   justify-content: space-between;
   align-items: flex-end;
   flex-wrap: wrap;
-  gap: 2rem;
+  gap: 32px;
 }
 
 .footer-brand h3 {
   font-family: var(--font-header);
   color: var(--text-main);
-  font-size: 1.5rem;
-  margin: 0 0 0.5rem 0;
+  font-size: 24px;
+  margin: 0 0 8px 0;
 }
 
 .footer-brand p {
   margin: 0;
-  font-size: 0.95rem;
+  font-size: 15px;
 }
 
 .footer-links {
@@ -417,8 +418,8 @@ h2::before {
 }
 
 .footer-links p {
-  margin: 0.2rem 0;
-  font-size: 0.9rem;
+  margin: 3px 0;
+  font-size: 14px;
 }
 
 .footer-links strong {
@@ -426,7 +427,7 @@ h2::before {
   font-weight: 600;
 }
 
-/* Responsive Footer per schermi piccoli */
+/* Per assicurarci che anche da cellulare Gennaro.dev sia impaginato alla perfezione */
 @media (max-width: 600px) {
   .footer-content {
     flex-direction: column;
